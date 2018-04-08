@@ -1,0 +1,327 @@
+fileFormatVersion: 2
+guid: 9bc2f2bbf6da7734d88740118836a120
+timeCreated: 1457016711
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: anim_chest01
+    100002: Anim_Controlls
+    100004: anim_globalcontrol
+    100006: anim_head01
+    100008: anim_l_shoulder
+    100010: anim_l_waist01
+    100012: anim_neck01
+    100014: anim_r_hand01
+    100016: anim_r_shoulder01
+    100018: anim_r_waist01
+    100020: anim_sword
+    100022: anim_waist01
+    100024: bottom
+    100026: ikHandle1
+    100028: left
+    100030: //RootNode
+    100032: Skeleton_model01
+    100034: Skeleton_model01 1
+    100036: Skin01
+    100038: skin_l_brokenarm01
+    100040: skin_l_shoulder02
+    100042: skin_l_waste01
+    100044: skin_m_chest01
+    100046: skin_m_head01
+    100048: skin_m_neck01
+    100050: skin_m_waist01
+    100052: skin_r_elbow01
+    100054: skin_r_hand01
+    100056: skin_r_shoulder01
+    100058: skin_r_waste01
+    100060: skin_sword01
+    100062: Sword_model01
+    400000: anim_chest01
+    400002: Anim_Controlls
+    400004: anim_globalcontrol
+    400006: anim_head01
+    400008: anim_l_shoulder
+    400010: anim_l_waist01
+    400012: anim_neck01
+    400014: anim_r_hand01
+    400016: anim_r_shoulder01
+    400018: anim_r_waist01
+    400020: anim_sword
+    400022: anim_waist01
+    400024: bottom
+    400026: ikHandle1
+    400028: left
+    400030: //RootNode
+    400032: Skeleton_model01
+    400034: Skeleton_model01 1
+    400036: Skin01
+    400038: skin_l_brokenarm01
+    400040: skin_l_shoulder02
+    400042: skin_l_waste01
+    400044: skin_m_chest01
+    400046: skin_m_head01
+    400048: skin_m_neck01
+    400050: skin_m_waist01
+    400052: skin_r_elbow01
+    400054: skin_r_hand01
+    400056: skin_r_shoulder01
+    400058: skin_r_waste01
+    400060: skin_sword01
+    400062: Sword_model01
+    2300000: Sword_model01
+    3300000: Sword_model01
+    4300000: Sword_model01
+    4300002: Skeleton_model01
+    7400000: Attack_Stab_animation
+    7400002: Death_animation
+    9500000: //RootNode
+    13700000: Skeleton_model01 1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Attack_Stab_animation
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Anim_Controlls
+        weight: 1
+      - path: Anim_Controlls/anim_chest01
+        weight: 1
+      - path: Anim_Controlls/anim_head01
+        weight: 1
+      - path: Anim_Controlls/anim_l_shoulder
+        weight: 1
+      - path: Anim_Controlls/anim_l_waist01
+        weight: 1
+      - path: Anim_Controlls/anim_neck01
+        weight: 1
+      - path: Anim_Controlls/anim_r_hand01
+        weight: 1
+      - path: Anim_Controlls/anim_r_shoulder01
+        weight: 1
+      - path: Anim_Controlls/anim_r_waist01
+        weight: 1
+      - path: Anim_Controlls/anim_waist01
+        weight: 1
+      - path: anim_globalcontrol
+        weight: 1
+      - path: anim_globalcontrol/ikHandle1
+        weight: 1
+      - path: anim_globalcontrol/Skeleton_model01
+        weight: 1
+      - path: anim_globalcontrol/Skeleton_model01/Skeleton_model01 1
+        weight: 1
+      - path: anim_globalcontrol/Skeleton_model01/Sword_model01
+        weight: 1
+      - path: anim_globalcontrol/Skin01
+        weight: 1
+      - path: anim_globalcontrol/Skin01/skin_m_head01
+        weight: 1
+      - path: anim_globalcontrol/Skin01/skin_m_head01/skin_m_neck01
+        weight: 1
+      - path: anim_globalcontrol/Skin01/skin_m_head01/skin_m_neck01/skin_m_chest01
+        weight: 1
+      - path: anim_globalcontrol/Skin01/skin_m_head01/skin_m_neck01/skin_m_chest01/skin_l_shoulder02
+        weight: 1
+      - path: anim_globalcontrol/Skin01/skin_m_head01/skin_m_neck01/skin_m_chest01/skin_l_shoulder02/skin_l_brokenarm01
+        weight: 1
+      - path: anim_globalcontrol/Skin01/skin_m_head01/skin_m_neck01/skin_m_chest01/skin_m_waist01
+        weight: 1
+      - path: anim_globalcontrol/Skin01/skin_m_head01/skin_m_neck01/skin_m_chest01/skin_m_waist01/skin_l_waste01
+        weight: 1
+      - path: anim_globalcontrol/Skin01/skin_m_head01/skin_m_neck01/skin_m_chest01/skin_m_waist01/skin_r_waste01
+        weight: 1
+      - path: anim_globalcontrol/Skin01/skin_m_head01/skin_m_neck01/skin_m_chest01/skin_r_shoulder01
+        weight: 1
+      - path: anim_globalcontrol/Skin01/skin_m_head01/skin_m_neck01/skin_m_chest01/skin_r_shoulder01/skin_r_elbow01
+        weight: 1
+      - path: anim_globalcontrol/Skin01/skin_m_head01/skin_m_neck01/skin_m_chest01/skin_r_shoulder01/skin_r_elbow01/skin_r_hand01
+        weight: 1
+      - path: anim_sword
+        weight: 1
+      - path: bottom
+        weight: 1
+      - path: left
+        weight: 1
+      - path: skin_sword01
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Death_animation
+      takeName: Take 001
+      firstFrame: 54
+      lastFrame: 90
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Anim_Controlls
+        weight: 1
+      - path: Anim_Controlls/anim_chest01
+        weight: 1
+      - path: Anim_Controlls/anim_head01
+        weight: 1
+      - path: Anim_Controlls/anim_l_shoulder
+        weight: 1
+      - path: Anim_Controlls/anim_l_waist01
+        weight: 1
+      - path: Anim_Controlls/anim_neck01
+        weight: 1
+      - path: Anim_Controlls/anim_r_hand01
+        weight: 1
+      - path: Anim_Controlls/anim_r_shoulder01
+        weight: 1
+      - path: Anim_Controlls/anim_r_waist01
+        weight: 1
+      - path: Anim_Controlls/anim_waist01
+        weight: 1
+      - path: anim_globalcontrol
+        weight: 1
+      - path: anim_globalcontrol/ikHandle1
+        weight: 1
+      - path: anim_globalcontrol/Skeleton_model01
+        weight: 1
+      - path: anim_globalcontrol/Skeleton_model01/Skeleton_model01 1
+        weight: 1
+      - path: anim_globalcontrol/Skeleton_model01/Sword_model01
+        weight: 1
+      - path: anim_globalcontrol/Skin01
+        weight: 1
+      - path: anim_globalcontrol/Skin01/skin_m_head01
+        weight: 1
+      - path: anim_globalcontrol/Skin01/skin_m_head01/skin_m_neck01
+        weight: 1
+      - path: anim_globalcontrol/Skin01/skin_m_head01/skin_m_neck01/skin_m_chest01
+        weight: 1
+      - path: anim_globalcontrol/Skin01/skin_m_head01/skin_m_neck01/skin_m_chest01/skin_l_shoulder02
+        weight: 1
+      - path: anim_globalcontrol/Skin01/skin_m_head01/skin_m_neck01/skin_m_chest01/skin_l_shoulder02/skin_l_brokenarm01
+        weight: 1
+      - path: anim_globalcontrol/Skin01/skin_m_head01/skin_m_neck01/skin_m_chest01/skin_m_waist01
+        weight: 1
+      - path: anim_globalcontrol/Skin01/skin_m_head01/skin_m_neck01/skin_m_chest01/skin_m_waist01/skin_l_waste01
+        weight: 1
+      - path: anim_globalcontrol/Skin01/skin_m_head01/skin_m_neck01/skin_m_chest01/skin_m_waist01/skin_r_waste01
+        weight: 1
+      - path: anim_globalcontrol/Skin01/skin_m_head01/skin_m_neck01/skin_m_chest01/skin_r_shoulder01
+        weight: 1
+      - path: anim_globalcontrol/Skin01/skin_m_head01/skin_m_neck01/skin_m_chest01/skin_r_shoulder01/skin_r_elbow01
+        weight: 1
+      - path: anim_globalcontrol/Skin01/skin_m_head01/skin_m_neck01/skin_m_chest01/skin_r_shoulder01/skin_r_elbow01/skin_r_hand01
+        weight: 1
+      - path: anim_sword
+        weight: 1
+      - path: bottom
+        weight: 1
+      - path: left
+        weight: 1
+      - path: skin_sword01
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+<<<<<<< HEAD
+guid: bfca8c4e0b99a3d45b861b45e9f2e49b
+folderAsset: yes
+timeCreated: 1456129493
+=======
+guid: 11e90bd49c6d3b54abe6b96ee6f11f6a
+folderAsset: yes
+timeCreated: 1456134660
+>>>>>>> Save Stuff to PlayerPrefs, cleanup of bad code
+licenseType: Free
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

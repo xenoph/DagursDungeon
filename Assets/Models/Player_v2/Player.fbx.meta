@@ -1,0 +1,870 @@
+fileFormatVersion: 2
+guid: 0d0d5266e5598ab4c99c9cecf76dc21a
+timeCreated: 1462705579
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: anim_back01
+    100002: anim_chest01
+    100004: anim_COG01
+    100006: anim_global01
+    100008: anim_head01
+    100010: anim_l_arm01
+    100012: anim_l_elbow01
+    100014: anim_l_hand01
+    100016: anim_neck01
+    100018: anim_r_arm01
+    100020: anim_r_elbow01
+    100022: anim_r_hand01
+    100024: anim_shield
+    100026: anim_sword01
+    100028: anim_waist01
+    100030: Controls
+    100032: ikHandle1
+    100034: ikHandle2
+    100036: ikHandle3
+    100038: j_l_chest
+    100040: j_l_elbow
+    100042: j_l_hand
+    100044: j_l_shoulder
+    100046: j_l_waist
+    100048: j_l_wrist
+    100050: j_m_chest
+    100052: j_m_head
+    100054: j_m_neck
+    100056: j_m_stomach
+    100058: j_m_waist
+    100060: j_r_chest
+    100062: j_r_elbow
+    100064: j_r_hand
+    100066: j_r_shoulder
+    100068: j_r_waist
+    100070: j_r_wrist
+    100072: pasted__group
+    100074: pasted__Player_Model
+    100076: pasted__polySurface2
+    100078: //RootNode
+    100080: Player
+    100082: Player_Model
+    100084: Shield
+    100086: Sword
+    400000: anim_back01
+    400002: anim_chest01
+    400004: anim_COG01
+    400006: anim_global01
+    400008: anim_head01
+    400010: anim_l_arm01
+    400012: anim_l_elbow01
+    400014: anim_l_hand01
+    400016: anim_neck01
+    400018: anim_r_arm01
+    400020: anim_r_elbow01
+    400022: anim_r_hand01
+    400024: anim_shield
+    400026: anim_sword01
+    400028: anim_waist01
+    400030: Controls
+    400032: ikHandle1
+    400034: ikHandle2
+    400036: ikHandle3
+    400038: j_l_chest
+    400040: j_l_elbow
+    400042: j_l_hand
+    400044: j_l_shoulder
+    400046: j_l_waist
+    400048: j_l_wrist
+    400050: j_m_chest
+    400052: j_m_head
+    400054: j_m_neck
+    400056: j_m_stomach
+    400058: j_m_waist
+    400060: j_r_chest
+    400062: j_r_elbow
+    400064: j_r_hand
+    400066: j_r_shoulder
+    400068: j_r_waist
+    400070: j_r_wrist
+    400072: pasted__group
+    400074: pasted__Player_Model
+    400076: pasted__polySurface2
+    400078: //RootNode
+    400080: Player
+    400082: Player_Model
+    400084: Shield
+    400086: Sword
+    2300000: Shield
+    2300002: Sword
+    3300000: Shield
+    3300002: Sword
+    4300000: Player
+    4300002: Sword
+    4300004: Shield
+    7400000: Take 001
+    7400002: Idle
+    7400004: Thrust
+    7400006: Slash
+    7400008: Block
+    7400010: Shield Dash
+    9500000: //RootNode
+    13700000: Player
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 185
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: anim_global01
+        weight: 1
+      - path: anim_global01/anim_COG01
+        weight: 1
+      - path: anim_global01/anim_COG01/Controls
+        weight: 1
+      - path: anim_global01/anim_COG01/Controls/anim_back01
+        weight: 1
+      - path: anim_global01/anim_COG01/Controls/anim_chest01
+        weight: 1
+      - path: anim_global01/anim_COG01/Controls/anim_head01
+        weight: 1
+      - path: anim_global01/anim_COG01/Controls/anim_l_arm01
+        weight: 1
+      - path: anim_global01/anim_COG01/Controls/anim_l_arm01/anim_l_hand01
+        weight: 1
+      - path: anim_global01/anim_COG01/Controls/anim_l_elbow01
+        weight: 1
+      - path: anim_global01/anim_COG01/Controls/anim_neck01
+        weight: 1
+      - path: anim_global01/anim_COG01/Controls/anim_r_arm01
+        weight: 1
+      - path: anim_global01/anim_COG01/Controls/anim_r_arm01/anim_r_hand01
+        weight: 1
+      - path: anim_global01/anim_COG01/Controls/anim_r_elbow01
+        weight: 1
+      - path: anim_global01/anim_COG01/Controls/anim_waist01
+        weight: 1
+      - path: anim_shield
+        weight: 1
+      - path: anim_shield/Shield
+        weight: 1
+      - path: anim_sword01
+        weight: 1
+      - path: anim_sword01/Sword
+        weight: 1
+      - path: ikHandle1
+        weight: 1
+      - path: ikHandle2
+        weight: 1
+      - path: ikHandle3
+        weight: 1
+      - path: Player_Model
+        weight: 1
+      - path: Player_Model/j_m_chest
+        weight: 1
+      - path: Player_Model/j_m_chest/j_l_chest
+        weight: 1
+      - path: Player_Model/j_m_chest/j_l_chest/j_l_shoulder
+        weight: 1
+      - path: Player_Model/j_m_chest/j_l_chest/j_l_shoulder/j_l_elbow
+        weight: 1
+      - path: Player_Model/j_m_chest/j_l_chest/j_l_shoulder/j_l_elbow/j_l_wrist
+        weight: 1
+      - path: Player_Model/j_m_chest/j_l_chest/j_l_shoulder/j_l_elbow/j_l_wrist/j_l_hand
+        weight: 1
+      - path: Player_Model/j_m_chest/j_m_neck
+        weight: 1
+      - path: Player_Model/j_m_chest/j_m_neck/j_m_head
+        weight: 1
+      - path: Player_Model/j_m_chest/j_m_stomach
+        weight: 1
+      - path: Player_Model/j_m_chest/j_m_stomach/j_m_waist
+        weight: 1
+      - path: Player_Model/j_m_chest/j_m_stomach/j_m_waist/j_l_waist
+        weight: 1
+      - path: Player_Model/j_m_chest/j_m_stomach/j_m_waist/j_r_waist
+        weight: 1
+      - path: Player_Model/j_m_chest/j_r_chest
+        weight: 1
+      - path: Player_Model/j_m_chest/j_r_chest/j_r_shoulder
+        weight: 1
+      - path: Player_Model/j_m_chest/j_r_chest/j_r_shoulder/j_r_elbow
+        weight: 1
+      - path: Player_Model/j_m_chest/j_r_chest/j_r_shoulder/j_r_elbow/j_r_wrist
+        weight: 1
+      - path: Player_Model/j_m_chest/j_r_chest/j_r_shoulder/j_r_elbow/j_r_wrist/j_r_hand
+        weight: 1
+      - path: Player_Model/pasted__group
+        weight: 1
+      - path: Player_Model/pasted__Player_Model
+        weight: 1
+      - path: Player_Model/pasted__Player_Model/pasted__polySurface2
+        weight: 1
+      - path: Player_Model/pasted__Player_Model/pasted__polySurface2/Player
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 26
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: anim_global01
+        weight: 1
+      - path: anim_global01/anim_COG01
+        weight: 1
+      - path: anim_global01/anim_COG01/Controls
+        weight: 1
+      - path: anim_global01/anim_COG01/Controls/anim_back01
+        weight: 1
+      - path: anim_global01/anim_COG01/Controls/anim_chest01
+        weight: 1
+      - path: anim_global01/anim_COG01/Controls/anim_head01
+        weight: 1
+      - path: anim_global01/anim_COG01/Controls/anim_l_arm01
+        weight: 1
+      - path: anim_global01/anim_COG01/Controls/anim_l_arm01/anim_l_hand01
+        weight: 1
+      - path: anim_global01/anim_COG01/Controls/anim_l_elbow01
+        weight: 1
+      - path: anim_global01/anim_COG01/Controls/anim_neck01
+        weight: 1
+      - path: anim_global01/anim_COG01/Controls/anim_r_arm01
+        weight: 1
+      - path: anim_global01/anim_COG01/Controls/anim_r_arm01/anim_r_hand01
+        weight: 1
+      - path: anim_global01/anim_COG01/Controls/anim_r_elbow01
+        weight: 1
+      - path: anim_global01/anim_COG01/Controls/anim_waist01
+        weight: 1
+      - path: anim_shield
+        weight: 1
+      - path: anim_shield/Shield
+        weight: 1
+      - path: anim_sword01
+        weight: 1
+      - path: anim_sword01/Sword
+        weight: 1
+      - path: ikHandle1
+        weight: 1
+      - path: ikHandle2
+        weight: 1
+      - path: ikHandle3
+        weight: 1
+      - path: Player_Model
+        weight: 1
+      - path: Player_Model/j_m_chest
+        weight: 1
+      - path: Player_Model/j_m_chest/j_l_chest
+        weight: 1
+      - path: Player_Model/j_m_chest/j_l_chest/j_l_shoulder
+        weight: 1
+      - path: Player_Model/j_m_chest/j_l_chest/j_l_shoulder/j_l_elbow
+        weight: 1
+      - path: Player_Model/j_m_chest/j_l_chest/j_l_shoulder/j_l_elbow/j_l_wrist
+        weight: 1
+      - path: Player_Model/j_m_chest/j_l_chest/j_l_shoulder/j_l_elbow/j_l_wrist/j_l_hand
+        weight: 1
+      - path: Player_Model/j_m_chest/j_m_neck
+        weight: 1
+      - path: Player_Model/j_m_chest/j_m_neck/j_m_head
+        weight: 1
+      - path: Player_Model/j_m_chest/j_m_stomach
+        weight: 1
+      - path: Player_Model/j_m_chest/j_m_stomach/j_m_waist
+        weight: 1
+      - path: Player_Model/j_m_chest/j_m_stomach/j_m_waist/j_l_waist
+        weight: 1
+      - path: Player_Model/j_m_chest/j_m_stomach/j_m_waist/j_r_waist
+        weight: 1
+      - path: Player_Model/j_m_chest/j_r_chest
+        weight: 1
+      - path: Player_Model/j_m_chest/j_r_chest/j_r_shoulder
+        weight: 1
+      - path: Player_Model/j_m_chest/j_r_chest/j_r_shoulder/j_r_elbow
+        weight: 1
+      - path: Player_Model/j_m_chest/j_r_chest/j_r_shoulder/j_r_elbow/j_r_wrist
+        weight: 1
+      - path: Player_Model/j_m_chest/j_r_chest/j_r_shoulder/j_r_elbow/j_r_wrist/j_r_hand
+        weight: 1
+      - path: Player_Model/pasted__group
+        weight: 1
+      - path: Player_Model/pasted__Player_Model
+        weight: 1
+      - path: Player_Model/pasted__Player_Model/pasted__polySurface2
+        weight: 1
+      - path: Player_Model/pasted__Player_Model/pasted__polySurface2/Player
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Thrust
+      takeName: Take 001
+      firstFrame: 30
+      lastFrame: 74
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: anim_global01
+        weight: 1
+      - path: anim_global01/anim_COG01
+        weight: 1
+      - path: anim_global01/anim_COG01/Controls
+        weight: 1
+      - path: anim_global01/anim_COG01/Controls/anim_back01
+        weight: 1
+      - path: anim_global01/anim_COG01/Controls/anim_chest01
+        weight: 1
+      - path: anim_global01/anim_COG01/Controls/anim_head01
+        weight: 1
+      - path: anim_global01/anim_COG01/Controls/anim_l_arm01
+        weight: 1
+      - path: anim_global01/anim_COG01/Controls/anim_l_arm01/anim_l_hand01
+        weight: 1
+      - path: anim_global01/anim_COG01/Controls/anim_l_elbow01
+        weight: 1
+      - path: anim_global01/anim_COG01/Controls/anim_neck01
+        weight: 1
+      - path: anim_global01/anim_COG01/Controls/anim_r_arm01
+        weight: 1
+      - path: anim_global01/anim_COG01/Controls/anim_r_arm01/anim_r_hand01
+        weight: 1
+      - path: anim_global01/anim_COG01/Controls/anim_r_elbow01
+        weight: 1
+      - path: anim_global01/anim_COG01/Controls/anim_waist01
+        weight: 1
+      - path: anim_shield
+        weight: 1
+      - path: anim_shield/Shield
+        weight: 1
+      - path: anim_sword01
+        weight: 1
+      - path: anim_sword01/Sword
+        weight: 1
+      - path: ikHandle1
+        weight: 1
+      - path: ikHandle2
+        weight: 1
+      - path: ikHandle3
+        weight: 1
+      - path: Player_Model
+        weight: 1
+      - path: Player_Model/j_m_chest
+        weight: 1
+      - path: Player_Model/j_m_chest/j_l_chest
+        weight: 1
+      - path: Player_Model/j_m_chest/j_l_chest/j_l_shoulder
+        weight: 1
+      - path: Player_Model/j_m_chest/j_l_chest/j_l_shoulder/j_l_elbow
+        weight: 1
+      - path: Player_Model/j_m_chest/j_l_chest/j_l_shoulder/j_l_elbow/j_l_wrist
+        weight: 1
+      - path: Player_Model/j_m_chest/j_l_chest/j_l_shoulder/j_l_elbow/j_l_wrist/j_l_hand
+        weight: 1
+      - path: Player_Model/j_m_chest/j_m_neck
+        weight: 1
+      - path: Player_Model/j_m_chest/j_m_neck/j_m_head
+        weight: 1
+      - path: Player_Model/j_m_chest/j_m_stomach
+        weight: 1
+      - path: Player_Model/j_m_chest/j_m_stomach/j_m_waist
+        weight: 1
+      - path: Player_Model/j_m_chest/j_m_stomach/j_m_waist/j_l_waist
+        weight: 1
+      - path: Player_Model/j_m_chest/j_m_stomach/j_m_waist/j_r_waist
+        weight: 1
+      - path: Player_Model/j_m_chest/j_r_chest
+        weight: 1
+      - path: Player_Model/j_m_chest/j_r_chest/j_r_shoulder
+        weight: 1
+      - path: Player_Model/j_m_chest/j_r_chest/j_r_shoulder/j_r_elbow
+        weight: 1
+      - path: Player_Model/j_m_chest/j_r_chest/j_r_shoulder/j_r_elbow/j_r_wrist
+        weight: 1
+      - path: Player_Model/j_m_chest/j_r_chest/j_r_shoulder/j_r_elbow/j_r_wrist/j_r_hand
+        weight: 1
+      - path: Player_Model/pasted__group
+        weight: 1
+      - path: Player_Model/pasted__Player_Model
+        weight: 1
+      - path: Player_Model/pasted__Player_Model/pasted__polySurface2
+        weight: 1
+      - path: Player_Model/pasted__Player_Model/pasted__polySurface2/Player
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Slash
+      takeName: Take 001
+      firstFrame: 75
+      lastFrame: 110
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: anim_global01
+        weight: 1
+      - path: anim_global01/anim_COG01
+        weight: 1
+      - path: anim_global01/anim_COG01/Controls
+        weight: 1
+      - path: anim_global01/anim_COG01/Controls/anim_back01
+        weight: 1
+      - path: anim_global01/anim_COG01/Controls/anim_chest01
+        weight: 1
+      - path: anim_global01/anim_COG01/Controls/anim_head01
+        weight: 1
+      - path: anim_global01/anim_COG01/Controls/anim_l_arm01
+        weight: 1
+      - path: anim_global01/anim_COG01/Controls/anim_l_arm01/anim_l_hand01
+        weight: 1
+      - path: anim_global01/anim_COG01/Controls/anim_l_elbow01
+        weight: 1
+      - path: anim_global01/anim_COG01/Controls/anim_neck01
+        weight: 1
+      - path: anim_global01/anim_COG01/Controls/anim_r_arm01
+        weight: 1
+      - path: anim_global01/anim_COG01/Controls/anim_r_arm01/anim_r_hand01
+        weight: 1
+      - path: anim_global01/anim_COG01/Controls/anim_r_elbow01
+        weight: 1
+      - path: anim_global01/anim_COG01/Controls/anim_waist01
+        weight: 1
+      - path: anim_shield
+        weight: 1
+      - path: anim_shield/Shield
+        weight: 1
+      - path: anim_sword01
+        weight: 1
+      - path: anim_sword01/Sword
+        weight: 1
+      - path: ikHandle1
+        weight: 1
+      - path: ikHandle2
+        weight: 1
+      - path: ikHandle3
+        weight: 1
+      - path: Player_Model
+        weight: 1
+      - path: Player_Model/j_m_chest
+        weight: 1
+      - path: Player_Model/j_m_chest/j_l_chest
+        weight: 1
+      - path: Player_Model/j_m_chest/j_l_chest/j_l_shoulder
+        weight: 1
+      - path: Player_Model/j_m_chest/j_l_chest/j_l_shoulder/j_l_elbow
+        weight: 1
+      - path: Player_Model/j_m_chest/j_l_chest/j_l_shoulder/j_l_elbow/j_l_wrist
+        weight: 1
+      - path: Player_Model/j_m_chest/j_l_chest/j_l_shoulder/j_l_elbow/j_l_wrist/j_l_hand
+        weight: 1
+      - path: Player_Model/j_m_chest/j_m_neck
+        weight: 1
+      - path: Player_Model/j_m_chest/j_m_neck/j_m_head
+        weight: 1
+      - path: Player_Model/j_m_chest/j_m_stomach
+        weight: 1
+      - path: Player_Model/j_m_chest/j_m_stomach/j_m_waist
+        weight: 1
+      - path: Player_Model/j_m_chest/j_m_stomach/j_m_waist/j_l_waist
+        weight: 1
+      - path: Player_Model/j_m_chest/j_m_stomach/j_m_waist/j_r_waist
+        weight: 1
+      - path: Player_Model/j_m_chest/j_r_chest
+        weight: 1
+      - path: Player_Model/j_m_chest/j_r_chest/j_r_shoulder
+        weight: 1
+      - path: Player_Model/j_m_chest/j_r_chest/j_r_shoulder/j_r_elbow
+        weight: 1
+      - path: Player_Model/j_m_chest/j_r_chest/j_r_shoulder/j_r_elbow/j_r_wrist
+        weight: 1
+      - path: Player_Model/j_m_chest/j_r_chest/j_r_shoulder/j_r_elbow/j_r_wrist/j_r_hand
+        weight: 1
+      - path: Player_Model/pasted__group
+        weight: 1
+      - path: Player_Model/pasted__Player_Model
+        weight: 1
+      - path: Player_Model/pasted__Player_Model/pasted__polySurface2
+        weight: 1
+      - path: Player_Model/pasted__Player_Model/pasted__polySurface2/Player
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Block
+      takeName: Take 001
+      firstFrame: 115
+      lastFrame: 145
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: anim_global01
+        weight: 1
+      - path: anim_global01/anim_COG01
+        weight: 1
+      - path: anim_global01/anim_COG01/Controls
+        weight: 1
+      - path: anim_global01/anim_COG01/Controls/anim_back01
+        weight: 1
+      - path: anim_global01/anim_COG01/Controls/anim_chest01
+        weight: 1
+      - path: anim_global01/anim_COG01/Controls/anim_head01
+        weight: 1
+      - path: anim_global01/anim_COG01/Controls/anim_l_arm01
+        weight: 1
+      - path: anim_global01/anim_COG01/Controls/anim_l_arm01/anim_l_hand01
+        weight: 1
+      - path: anim_global01/anim_COG01/Controls/anim_l_elbow01
+        weight: 1
+      - path: anim_global01/anim_COG01/Controls/anim_neck01
+        weight: 1
+      - path: anim_global01/anim_COG01/Controls/anim_r_arm01
+        weight: 1
+      - path: anim_global01/anim_COG01/Controls/anim_r_arm01/anim_r_hand01
+        weight: 1
+      - path: anim_global01/anim_COG01/Controls/anim_r_elbow01
+        weight: 1
+      - path: anim_global01/anim_COG01/Controls/anim_waist01
+        weight: 1
+      - path: anim_shield
+        weight: 1
+      - path: anim_shield/Shield
+        weight: 1
+      - path: anim_sword01
+        weight: 1
+      - path: anim_sword01/Sword
+        weight: 1
+      - path: ikHandle1
+        weight: 1
+      - path: ikHandle2
+        weight: 1
+      - path: ikHandle3
+        weight: 1
+      - path: Player_Model
+        weight: 1
+      - path: Player_Model/j_m_chest
+        weight: 1
+      - path: Player_Model/j_m_chest/j_l_chest
+        weight: 1
+      - path: Player_Model/j_m_chest/j_l_chest/j_l_shoulder
+        weight: 1
+      - path: Player_Model/j_m_chest/j_l_chest/j_l_shoulder/j_l_elbow
+        weight: 1
+      - path: Player_Model/j_m_chest/j_l_chest/j_l_shoulder/j_l_elbow/j_l_wrist
+        weight: 1
+      - path: Player_Model/j_m_chest/j_l_chest/j_l_shoulder/j_l_elbow/j_l_wrist/j_l_hand
+        weight: 1
+      - path: Player_Model/j_m_chest/j_m_neck
+        weight: 1
+      - path: Player_Model/j_m_chest/j_m_neck/j_m_head
+        weight: 1
+      - path: Player_Model/j_m_chest/j_m_stomach
+        weight: 1
+      - path: Player_Model/j_m_chest/j_m_stomach/j_m_waist
+        weight: 1
+      - path: Player_Model/j_m_chest/j_m_stomach/j_m_waist/j_l_waist
+        weight: 1
+      - path: Player_Model/j_m_chest/j_m_stomach/j_m_waist/j_r_waist
+        weight: 1
+      - path: Player_Model/j_m_chest/j_r_chest
+        weight: 1
+      - path: Player_Model/j_m_chest/j_r_chest/j_r_shoulder
+        weight: 1
+      - path: Player_Model/j_m_chest/j_r_chest/j_r_shoulder/j_r_elbow
+        weight: 1
+      - path: Player_Model/j_m_chest/j_r_chest/j_r_shoulder/j_r_elbow/j_r_wrist
+        weight: 1
+      - path: Player_Model/j_m_chest/j_r_chest/j_r_shoulder/j_r_elbow/j_r_wrist/j_r_hand
+        weight: 1
+      - path: Player_Model/pasted__group
+        weight: 1
+      - path: Player_Model/pasted__Player_Model
+        weight: 1
+      - path: Player_Model/pasted__Player_Model/pasted__polySurface2
+        weight: 1
+      - path: Player_Model/pasted__Player_Model/pasted__polySurface2/Player
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Shield Dash
+      takeName: Take 001
+      firstFrame: 150
+      lastFrame: 190
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: anim_global01
+        weight: 1
+      - path: anim_global01/anim_COG01
+        weight: 1
+      - path: anim_global01/anim_COG01/Controls
+        weight: 1
+      - path: anim_global01/anim_COG01/Controls/anim_back01
+        weight: 1
+      - path: anim_global01/anim_COG01/Controls/anim_chest01
+        weight: 1
+      - path: anim_global01/anim_COG01/Controls/anim_head01
+        weight: 1
+      - path: anim_global01/anim_COG01/Controls/anim_l_arm01
+        weight: 1
+      - path: anim_global01/anim_COG01/Controls/anim_l_arm01/anim_l_hand01
+        weight: 1
+      - path: anim_global01/anim_COG01/Controls/anim_l_elbow01
+        weight: 1
+      - path: anim_global01/anim_COG01/Controls/anim_neck01
+        weight: 1
+      - path: anim_global01/anim_COG01/Controls/anim_r_arm01
+        weight: 1
+      - path: anim_global01/anim_COG01/Controls/anim_r_arm01/anim_r_hand01
+        weight: 1
+      - path: anim_global01/anim_COG01/Controls/anim_r_elbow01
+        weight: 1
+      - path: anim_global01/anim_COG01/Controls/anim_waist01
+        weight: 1
+      - path: anim_shield
+        weight: 1
+      - path: anim_shield/Shield
+        weight: 1
+      - path: anim_sword01
+        weight: 1
+      - path: anim_sword01/Sword
+        weight: 1
+      - path: ikHandle1
+        weight: 1
+      - path: ikHandle2
+        weight: 1
+      - path: ikHandle3
+        weight: 1
+      - path: Player_Model
+        weight: 1
+      - path: Player_Model/j_m_chest
+        weight: 1
+      - path: Player_Model/j_m_chest/j_l_chest
+        weight: 1
+      - path: Player_Model/j_m_chest/j_l_chest/j_l_shoulder
+        weight: 1
+      - path: Player_Model/j_m_chest/j_l_chest/j_l_shoulder/j_l_elbow
+        weight: 1
+      - path: Player_Model/j_m_chest/j_l_chest/j_l_shoulder/j_l_elbow/j_l_wrist
+        weight: 1
+      - path: Player_Model/j_m_chest/j_l_chest/j_l_shoulder/j_l_elbow/j_l_wrist/j_l_hand
+        weight: 1
+      - path: Player_Model/j_m_chest/j_m_neck
+        weight: 1
+      - path: Player_Model/j_m_chest/j_m_neck/j_m_head
+        weight: 1
+      - path: Player_Model/j_m_chest/j_m_stomach
+        weight: 1
+      - path: Player_Model/j_m_chest/j_m_stomach/j_m_waist
+        weight: 1
+      - path: Player_Model/j_m_chest/j_m_stomach/j_m_waist/j_l_waist
+        weight: 1
+      - path: Player_Model/j_m_chest/j_m_stomach/j_m_waist/j_r_waist
+        weight: 1
+      - path: Player_Model/j_m_chest/j_r_chest
+        weight: 1
+      - path: Player_Model/j_m_chest/j_r_chest/j_r_shoulder
+        weight: 1
+      - path: Player_Model/j_m_chest/j_r_chest/j_r_shoulder/j_r_elbow
+        weight: 1
+      - path: Player_Model/j_m_chest/j_r_chest/j_r_shoulder/j_r_elbow/j_r_wrist
+        weight: 1
+      - path: Player_Model/j_m_chest/j_r_chest/j_r_shoulder/j_r_elbow/j_r_wrist/j_r_hand
+        weight: 1
+      - path: Player_Model/pasted__group
+        weight: 1
+      - path: Player_Model/pasted__Player_Model
+        weight: 1
+      - path: Player_Model/pasted__Player_Model/pasted__polySurface2
+        weight: 1
+      - path: Player_Model/pasted__Player_Model/pasted__polySurface2/Player
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

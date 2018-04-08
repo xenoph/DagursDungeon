@@ -1,0 +1,306 @@
+fileFormatVersion: 2
+guid: 9a452f90eed1f984fa0905a67bcb4593
+timeCreated: 1459928662
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Left_Arm_Elbow_skin
+    100004: Left_Arm_Hand_skin
+    100006: Left_Arm_Shoulder_skin
+    100008: Left_Arm_Wrist_skin
+    100010: LowerBack1_skin
+    100012: LowerNeck_skin
+    100014: pTroll
+    100016: Right_Arm_Elbow_skin
+    100018: Right_Arm_Hand_skin
+    100020: Right_Arm_Shoulder_skin
+    100022: Right_Arm_Wrist_skin
+    100024: TheTroll_Root_skin
+    100026: TopofHead2_skin
+    100028: TopOfHead_skin
+    100030: UpperBack1_skin
+    100032: Upperback2_skin
+    100034: UpperNeck_skin
+    400000: //RootNode
+    400002: Left_Arm_Elbow_skin
+    400004: Left_Arm_Hand_skin
+    400006: Left_Arm_Shoulder_skin
+    400008: Left_Arm_Wrist_skin
+    400010: LowerBack1_skin
+    400012: LowerNeck_skin
+    400014: pTroll
+    400016: Right_Arm_Elbow_skin
+    400018: Right_Arm_Hand_skin
+    400020: Right_Arm_Shoulder_skin
+    400022: Right_Arm_Wrist_skin
+    400024: TheTroll_Root_skin
+    400026: TopofHead2_skin
+    400028: TopOfHead_skin
+    400030: UpperBack1_skin
+    400032: Upperback2_skin
+    400034: UpperNeck_skin
+    4300000: pTroll
+    7400000: Attack Animation
+    7400002: Death Animation
+    7400004: Idle Animation
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: pTroll
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Attack Animation
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 28
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: pTroll
+        weight: 1
+      - path: TheTroll_Root_skin
+        weight: 1
+      - path: TheTroll_Root_skin/LowerBack1_skin
+        weight: 1
+      - path: TheTroll_Root_skin/LowerBack1_skin/UpperBack1_skin
+        weight: 1
+      - path: TheTroll_Root_skin/LowerBack1_skin/UpperBack1_skin/Upperback2_skin
+        weight: 1
+      - path: TheTroll_Root_skin/LowerBack1_skin/UpperBack1_skin/Upperback2_skin/LowerNeck_skin
+        weight: 1
+      - path: TheTroll_Root_skin/LowerBack1_skin/UpperBack1_skin/Upperback2_skin/LowerNeck_skin/Left_Arm_Shoulder_skin
+        weight: 1
+      - path: TheTroll_Root_skin/LowerBack1_skin/UpperBack1_skin/Upperback2_skin/LowerNeck_skin/Left_Arm_Shoulder_skin/Left_Arm_Elbow_skin
+        weight: 1
+      - path: TheTroll_Root_skin/LowerBack1_skin/UpperBack1_skin/Upperback2_skin/LowerNeck_skin/Left_Arm_Shoulder_skin/Left_Arm_Elbow_skin/Left_Arm_Wrist_skin
+        weight: 1
+      - path: TheTroll_Root_skin/LowerBack1_skin/UpperBack1_skin/Upperback2_skin/LowerNeck_skin/Left_Arm_Shoulder_skin/Left_Arm_Elbow_skin/Left_Arm_Wrist_skin/Left_Arm_Hand_skin
+        weight: 1
+      - path: TheTroll_Root_skin/LowerBack1_skin/UpperBack1_skin/Upperback2_skin/LowerNeck_skin/Right_Arm_Shoulder_skin
+        weight: 1
+      - path: TheTroll_Root_skin/LowerBack1_skin/UpperBack1_skin/Upperback2_skin/LowerNeck_skin/Right_Arm_Shoulder_skin/Right_Arm_Elbow_skin
+        weight: 1
+      - path: TheTroll_Root_skin/LowerBack1_skin/UpperBack1_skin/Upperback2_skin/LowerNeck_skin/Right_Arm_Shoulder_skin/Right_Arm_Elbow_skin/Right_Arm_Wrist_skin
+        weight: 1
+      - path: TheTroll_Root_skin/LowerBack1_skin/UpperBack1_skin/Upperback2_skin/LowerNeck_skin/Right_Arm_Shoulder_skin/Right_Arm_Elbow_skin/Right_Arm_Wrist_skin/Right_Arm_Hand_skin
+        weight: 1
+      - path: TheTroll_Root_skin/LowerBack1_skin/UpperBack1_skin/Upperback2_skin/LowerNeck_skin/UpperNeck_skin
+        weight: 1
+      - path: TheTroll_Root_skin/LowerBack1_skin/UpperBack1_skin/Upperback2_skin/LowerNeck_skin/UpperNeck_skin/TopOfHead_skin
+        weight: 1
+      - path: TheTroll_Root_skin/LowerBack1_skin/UpperBack1_skin/Upperback2_skin/LowerNeck_skin/UpperNeck_skin/TopOfHead_skin/TopofHead2_skin
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Death Animation
+      takeName: Take 001
+      firstFrame: 28
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: pTroll
+        weight: 1
+      - path: TheTroll_Root_skin
+        weight: 1
+      - path: TheTroll_Root_skin/LowerBack1_skin
+        weight: 1
+      - path: TheTroll_Root_skin/LowerBack1_skin/UpperBack1_skin
+        weight: 1
+      - path: TheTroll_Root_skin/LowerBack1_skin/UpperBack1_skin/Upperback2_skin
+        weight: 1
+      - path: TheTroll_Root_skin/LowerBack1_skin/UpperBack1_skin/Upperback2_skin/LowerNeck_skin
+        weight: 1
+      - path: TheTroll_Root_skin/LowerBack1_skin/UpperBack1_skin/Upperback2_skin/LowerNeck_skin/Left_Arm_Shoulder_skin
+        weight: 1
+      - path: TheTroll_Root_skin/LowerBack1_skin/UpperBack1_skin/Upperback2_skin/LowerNeck_skin/Left_Arm_Shoulder_skin/Left_Arm_Elbow_skin
+        weight: 1
+      - path: TheTroll_Root_skin/LowerBack1_skin/UpperBack1_skin/Upperback2_skin/LowerNeck_skin/Left_Arm_Shoulder_skin/Left_Arm_Elbow_skin/Left_Arm_Wrist_skin
+        weight: 1
+      - path: TheTroll_Root_skin/LowerBack1_skin/UpperBack1_skin/Upperback2_skin/LowerNeck_skin/Left_Arm_Shoulder_skin/Left_Arm_Elbow_skin/Left_Arm_Wrist_skin/Left_Arm_Hand_skin
+        weight: 1
+      - path: TheTroll_Root_skin/LowerBack1_skin/UpperBack1_skin/Upperback2_skin/LowerNeck_skin/Right_Arm_Shoulder_skin
+        weight: 1
+      - path: TheTroll_Root_skin/LowerBack1_skin/UpperBack1_skin/Upperback2_skin/LowerNeck_skin/Right_Arm_Shoulder_skin/Right_Arm_Elbow_skin
+        weight: 1
+      - path: TheTroll_Root_skin/LowerBack1_skin/UpperBack1_skin/Upperback2_skin/LowerNeck_skin/Right_Arm_Shoulder_skin/Right_Arm_Elbow_skin/Right_Arm_Wrist_skin
+        weight: 1
+      - path: TheTroll_Root_skin/LowerBack1_skin/UpperBack1_skin/Upperback2_skin/LowerNeck_skin/Right_Arm_Shoulder_skin/Right_Arm_Elbow_skin/Right_Arm_Wrist_skin/Right_Arm_Hand_skin
+        weight: 1
+      - path: TheTroll_Root_skin/LowerBack1_skin/UpperBack1_skin/Upperback2_skin/LowerNeck_skin/UpperNeck_skin
+        weight: 1
+      - path: TheTroll_Root_skin/LowerBack1_skin/UpperBack1_skin/Upperback2_skin/LowerNeck_skin/UpperNeck_skin/TopOfHead_skin
+        weight: 1
+      - path: TheTroll_Root_skin/LowerBack1_skin/UpperBack1_skin/Upperback2_skin/LowerNeck_skin/UpperNeck_skin/TopOfHead_skin/TopofHead2_skin
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle Animation
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: pTroll
+        weight: 1
+      - path: TheTroll_Root_skin
+        weight: 1
+      - path: TheTroll_Root_skin/LowerBack1_skin
+        weight: 1
+      - path: TheTroll_Root_skin/LowerBack1_skin/UpperBack1_skin
+        weight: 1
+      - path: TheTroll_Root_skin/LowerBack1_skin/UpperBack1_skin/Upperback2_skin
+        weight: 1
+      - path: TheTroll_Root_skin/LowerBack1_skin/UpperBack1_skin/Upperback2_skin/LowerNeck_skin
+        weight: 1
+      - path: TheTroll_Root_skin/LowerBack1_skin/UpperBack1_skin/Upperback2_skin/LowerNeck_skin/Left_Arm_Shoulder_skin
+        weight: 1
+      - path: TheTroll_Root_skin/LowerBack1_skin/UpperBack1_skin/Upperback2_skin/LowerNeck_skin/Left_Arm_Shoulder_skin/Left_Arm_Elbow_skin
+        weight: 1
+      - path: TheTroll_Root_skin/LowerBack1_skin/UpperBack1_skin/Upperback2_skin/LowerNeck_skin/Left_Arm_Shoulder_skin/Left_Arm_Elbow_skin/Left_Arm_Wrist_skin
+        weight: 1
+      - path: TheTroll_Root_skin/LowerBack1_skin/UpperBack1_skin/Upperback2_skin/LowerNeck_skin/Left_Arm_Shoulder_skin/Left_Arm_Elbow_skin/Left_Arm_Wrist_skin/Left_Arm_Hand_skin
+        weight: 1
+      - path: TheTroll_Root_skin/LowerBack1_skin/UpperBack1_skin/Upperback2_skin/LowerNeck_skin/Right_Arm_Shoulder_skin
+        weight: 1
+      - path: TheTroll_Root_skin/LowerBack1_skin/UpperBack1_skin/Upperback2_skin/LowerNeck_skin/Right_Arm_Shoulder_skin/Right_Arm_Elbow_skin
+        weight: 1
+      - path: TheTroll_Root_skin/LowerBack1_skin/UpperBack1_skin/Upperback2_skin/LowerNeck_skin/Right_Arm_Shoulder_skin/Right_Arm_Elbow_skin/Right_Arm_Wrist_skin
+        weight: 1
+      - path: TheTroll_Root_skin/LowerBack1_skin/UpperBack1_skin/Upperback2_skin/LowerNeck_skin/Right_Arm_Shoulder_skin/Right_Arm_Elbow_skin/Right_Arm_Wrist_skin/Right_Arm_Hand_skin
+        weight: 1
+      - path: TheTroll_Root_skin/LowerBack1_skin/UpperBack1_skin/Upperback2_skin/LowerNeck_skin/UpperNeck_skin
+        weight: 1
+      - path: TheTroll_Root_skin/LowerBack1_skin/UpperBack1_skin/Upperback2_skin/LowerNeck_skin/UpperNeck_skin/TopOfHead_skin
+        weight: 1
+      - path: TheTroll_Root_skin/LowerBack1_skin/UpperBack1_skin/Upperback2_skin/LowerNeck_skin/UpperNeck_skin/TopOfHead_skin/TopofHead2_skin
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

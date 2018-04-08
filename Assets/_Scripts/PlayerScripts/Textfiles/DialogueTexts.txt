@@ -1,0 +1,11 @@
+﻿###ERROR TEXTS - NOT VALID COMMAND
+I'm sorry, I don't understand.
+Did you maybe misspell something?
+You should try writing something else.
+You don't seem to know what you're saying.
+###ERROR TEXTS - OUT OF COMMANDS
+I think you've got enough to do.
+Somehow I don't believe you'll manage to do any more.
+You think to yourself that you have enough to do now.
+###ERROR TEXTS - NO DECLARATION YET
+##This Error Is Not Prepared Yet.

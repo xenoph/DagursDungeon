@@ -1,0 +1,133 @@
+﻿##FORWARD COMMANDS##
+FORWARD
+Move your character forward one square. Use with a number to move more than one square, i.e. "forward 3". See also; Advance, Frontward, Ahead, Onward.
+ADVANCE
+Move your character forward one square. Use with a number to move more than one square, i.e. "advance 3". See also; Forward, Frontward, Ahead, Onward.
+FRONTWARD
+Move your character forward one square. Use with a number to move more than one square, i.e. "frontward 3". See also; Advance, Forward, Ahead, Onward.
+AHEAD
+Move your character forward one square. Use with a number to move more than one square, i.e. "ahead 3". See also; Advance, Frontward, Forward, Onward.
+ONWARD
+Move your character forward one square. Use with a number to move more than one square, i.e. "onward 3". See also; Advance, Frontward, Ahead, Forward.
+
+##LEFT COMMANDS##
+LEFT
+Your character turns left then moves one square forward. Use with a number to move more than one square, i.e. "left 3". See also; Leftfield, Leftover.
+LEFTFIELD
+Your character turns left then moves one square forward. Use with a number to move more than one square, i.e. "leftfield 3". See also; Left, Leftover.
+Leftover
+Your character turns left then moves one square forward. Use with a number to move more than one square, i.e. "leftover 3". See also; Leftfield, Left.
+
+##RIGHT COMMANDS##
+RIGHT
+Your character turns right then moves one square forward. Use with a number to move more than one square, i.e. "right 3". See also; Rightfield, Rightover.
+RIGHTFIELD
+Your character turns right then moves one square forward. Use with a number to move more than one square, i.e. "rightfield 3". See also; Right, Rightover.
+RIGHTOVER
+Your character turns right then moves one square forward. Use with a number to move more than one square, i.e. "rightover 3". See also; Rightfield, Right.
+
+##BACK COMMANDS##
+BACK
+Your character turns around then moves one square forward. Use with a number to move more than one square, i.e. "back 3". See also; Turnaround, Opposite, Backward, Reverse.
+TURNAROUND
+Your character turns around then moves one square forward. Use with a number to move more than one square, i.e. "turnaround 3". See also; Back, Opposite, Backward, Reverse.
+OPPOSITE
+Your character turns around then moves one square forward. Use with a number to move more than one square, i.e. "opposite 3". See also; Turnaround, Back, Backward, Reverse.
+BACKWARD
+Your character turns around then moves one square forward. Use with a number to move more than one square, i.e. "backward 3". See also; Turnaround, Opposite, Back, Reverse.
+REVERSE
+Your character turns around then moves one square forward. Use with a number to move more than one square, i.e. "reverse 3". See also; Turnaround, Opposite, Backward, Back.
+
+##TURN COMMANDS##
+TURN
+Turn you character around to Left, Right or Back. Will not move you to a different block. See also; Spin, Whirl, Twist.
+SPIN
+Turn you character around to Left, Right or Back. Will not move you to a different block. See also; Turn, Whirl, Twist.
+WHIRL
+Turn you character around to Left, Right or Back. Will not move you to a different block. See also; Spin, Turn, Twist.
+TWIST
+Turn you character around to Left, Right or Back. Will not move you to a different block. See also; Spin, Whirl, Turn.
+
+##GET COMMANDS##
+GET
+This will make you take the object in front of you, if possible, and move you to the block the object is at. See also; Take, Grab, Snag, Fetch.
+TAKE
+This will make you take the object in front of you, if possible, and move you to the block the object is at. See also; Get, Grab, Snag, Fetch.
+GRAB
+This will make you take the object in front of you, if possible, and move you to the block the object is at. See also; Take, Get, Snag, Fetch.
+SNAG
+This will make you take the object in front of you, if possible, and move you to the block the object is at. See also; Take, Grab, Get, Fetch.
+FETCH
+This will make you take the object in front of you, if possible, and move you to the block the object is at. See also; Take, Grab, Snag, Get.
+
+##PUSH COMMANDS##
+PUSH
+Will attempt to push the object, or parts of the object, in front of you. See also; Press, Shove, Nudge.
+PRESS
+Will attempt to push the object, or parts of the object, in front of you. See also; Push, Shove, Nudge.
+SHOVE
+Will attempt to push the object, or parts of the object, in front of you. See also; Press, Push, Nudge.
+NUDGE
+Will attempt to push the object, or parts of the object, in front of you. See also; Press, Shove, Push.
+
+##ATTACK COMMANDS##
+ATTACK
+Attack what is right in front of you. 
+
+##LIGHT COMMANDS##
+LIGHT
+This will light up, or refresh a flame, right in front of you. See also; Ignite, Brighten, Illuminate.
+IGNITE
+This will light up, or refresh a flame, right in front of you. See also; Light, Brighten, Illuminate.
+BRIGHTEN
+This will light up, or refresh a flame, right in front of you. See also; Ignite, Light, Illuminate.
+ILLUMINATE
+This will light up, or refresh a flame, right in front of you. See also; Ignite, Brighten, Light.
+
+##OPEN COMMANDS##
+OPEN
+Attempts to open the item in front of you. See also; Unlock, Unseal, Unfasten.
+UNLOCK
+Attempts to open the item in front of you. See also; Open, Unseal, Unfasten.
+UNSEAL
+Attempts to open the item in front of you. See also; Unlock, Open, Unfasten.
+UNFASTEN
+Attempts to open the item in front of you. See also; Unlock, Unseal, Open.
+
+##OTHER COMMANDS##
+ALIAS
+Create an alias for a command. I.e. "alias f forward" will enable you to use f instead of forward. Note that you can't create two aliases with the same name. See also; Unalias.
+
+UNALIAS
+Remove a previously saved alias, i.e. "unalias f" will remove the saved alias f.
+
+LIST
+Shows a list of something. This can be "list alias" to see a list of aliases you have created, or "list commands" to list all the valid commands.
+
+EXAMINE
+Examines what is right in front, up to 4 meters ahead. If it is an enemy, it will be judging how strong he is.
+
+HELP
+Take a wild stab at what it does.
+
+STATS
+Will show a list over what your stats are currently.
+
+CANCEL
+Cancels the last command saved by removing it from the command list and freeing up a slot for a new command.
+
+ENTER
+Enters whatever is in front of you.
+
+##COMBAT COMMANDS##
+SLASH
+Slash your weapon downwards towards your foe, attempting to cut him open.
+
+THRUST
+Thrust your weapon towards your foe, attempting to stab him in the stomach.
+
+SHIELDBLOCK
+Raises your shield to block incoming attacks.
+
+SLAM
+Slams your shield into your foe, stunning him briefly.
